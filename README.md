@@ -1,10 +1,10 @@
-# 🖼️ pfps.gg Banners Scraper
+# pfps.gg Banners Scraper
 
 This Node.js script automates the process of downloading banner images from [pfps.gg](https://pfps.gg)
 
 ---
 
-## 🚀 Features
+## Features
 
 - Scrapes banner images from multiple paginated pages.
 - Filters standard image formats: PNG, JPEG, GIF, and WebP.
@@ -16,7 +16,7 @@ Each folder in the output directory contains banner images sorted by detected fi
 
 ---
 
-## 🛠️ Usage
+## 🛠Usage
 
 1. **Install dependencies:**
 
@@ -34,7 +34,7 @@ Each folder in the output directory contains banner images sorted by detected fi
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 - Loops through paginated content on `pfps.gg`.
 - Parses HTML to extract `<img>` tags linked to banner URLs.
